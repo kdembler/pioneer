@@ -3369,8 +3369,11 @@ __metadata:
     "@ckeditor/ckeditor5-paste-from-office": ^31.0.0
     "@ckeditor/ckeditor5-theme-lark": ^31.0.0
     "@ckeditor/ckeditor5-typing": ^31.0.0
+    "@types/eslint": ^8
+    "@types/node": ^18.11.18
     "@typescript-eslint/eslint-plugin": ^4.33.0
     "@typescript-eslint/parser": ^4.33.0
+    eslint: 7
     prettier: ^2.4.1
     raw-loader: ^4.0.2
     terser-webpack-plugin: ^5.2.5
@@ -3421,6 +3424,7 @@ __metadata:
     "@miragejs/graphql": ^0.1.13
     "@nivo/bar": ^0.79.1
     "@nivo/core": ^0.79.0
+    "@nivo/tooltip": 0.79.0
     "@polkadot/api": 8.9.1
     "@polkadot/extension-dapp": 0.44.2-4
     "@polkadot/keyring": 9.5.1
@@ -3440,9 +3444,12 @@ __metadata:
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^12.1.2
     "@testing-library/react-hooks": ^7.0.2
+    "@types/eslint": ^8
     "@types/faker": ^5.5.8
     "@types/jest": ^27.0.2
     "@types/mime": ^2.0.3
+    "@types/node": ^18.11.18
+    "@types/prop-types": ^15
     "@types/react": ^17.0.27
     "@types/react-dom": ^17.0.9
     "@types/react-paginate": ^7.1.1
@@ -3451,6 +3458,7 @@ __metadata:
     "@types/styled-components": ^5.1.15
     "@types/yargs": ^17.0.3
     "@typescript-eslint/eslint-plugin": ^4.33.0
+    "@typescript-eslint/parser": 4
     "@xstate/react": ^1.6.1
     babel: ^6.23.0
     babel-jest: ^27.2.5
@@ -3465,11 +3473,13 @@ __metadata:
     date-fns: ^2.25.0
     dotenv: ^10.0.0
     escape-string-regexp: ^5.0.0
+    eslint: 7
     eslint-plugin-react-hooks: ^4.2.0
     faker: ^5.5.3
     file-loader: ^6.2.0
     fork-ts-checker-webpack-plugin: ^6.4.0
     framer-motion: ^4.1.17
+    graphql: 15
     graphql-tag: ^2.12.5
     html-webpack-plugin: ^5.3.2
     i18next: ^21.6.3
@@ -3488,17 +3498,20 @@ __metadata:
     mock-local-storage: ^1.1.17
     multihashes: ^4.0.3
     prettier: ^2.4.1
+    prop-types: ^15.8.1
     raw-loader: ^4.0.2
-    react: ^17.0.2
-    react-dom: ^17.0.2
+    react: 16
+    react-dom: 16
     react-dropzone: ^11.4.2
     react-hook-form: ^7.29.0
     react-i18next: ^11.15.1
     react-intersection-observer: ^8.32.1
+    react-is: ^18.2.0
     react-markdown: ^7.0.1
     react-number-format: ^4.9.3
     react-paginate: ^7.1.3
     react-popper: ^2.2.5
+    react-router: ^6.6.2
     react-router-dom: ^5.3.0
     react-transition-group: ^4.4.2
     remark-gfm: ^3.0.1
@@ -4618,6 +4631,13 @@ __metadata:
     react: ^16.8.0  || ^17.0.0
     react-dom: ^16.8.0  || ^17.0.0
   checksum: 223ce3f849df23a7c4f630ea1e5be91a12257e35e2c8c10b939568302176d3881c1037d50daca4238a6383ddaa477cdc4971163a9da181b790abe91cae4b8c50
+  languageName: node
+  linkType: hard
+
+"@remix-run/router@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@remix-run/router@npm:1.2.1"
+  checksum: 71c947f83e130bf006226332aca395f626ad599b6d35dfe936f6a8f139cf37278bc1b36bce38c30f6062724402358296329f31c385b11ae59b13b76a2716d701
   languageName: node
   linkType: hard
 
@@ -6061,6 +6081,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/eslint@npm:^8":
+  version: 8.4.10
+  resolution: "@types/eslint@npm:8.4.10"
+  dependencies:
+    "@types/estree": "*"
+    "@types/json-schema": "*"
+  checksum: 21e009ed9ed9bc8920fdafc6e11ff321c4538b4cc18a56fdd59dc5184ea7bbf363c71638c9bdb59fc1254dddcdd567485136ed68b0ee4750948d4e32cb79c689
+  languageName: node
+  linkType: hard
+
 "@types/estree@npm:*, @types/estree@npm:^0.0.50":
   version: 0.0.50
   resolution: "@types/estree@npm:0.0.50"
@@ -6372,6 +6402,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^18.11.18":
+  version: 18.11.18
+  resolution: "@types/node@npm:18.11.18"
+  checksum: 03f17f9480f8d775c8a72da5ea7e9383db5f6d85aa5fefde90dd953a1449bd5e4ffde376f139da4f3744b4c83942166d2a7603969a6f8ea826edfb16e6e3b49d
+  languageName: node
+  linkType: hard
+
 "@types/normalize-package-data@npm:^2.4.0":
   version: 2.4.1
   resolution: "@types/normalize-package-data@npm:2.4.1"
@@ -6434,6 +6471,13 @@ __metadata:
   version: 15.7.4
   resolution: "@types/prop-types@npm:15.7.4"
   checksum: ef6e1899e59b876c273811b1bd845022fc66d5a3d11cb38a25b6c566b30514ae38fe20a40f67622f362a4f4f7f9224e22d8da101cff3d6e97e11d7b4c307cfc1
+  languageName: node
+  linkType: hard
+
+"@types/prop-types@npm:^15":
+  version: 15.7.5
+  resolution: "@types/prop-types@npm:15.7.5"
+  checksum: 5b43b8b15415e1f298243165f1d44390403bb2bd42e662bca3b5b5633fdd39c938e91b7fce3a9483699db0f7a715d08cef220c121f723a634972fdf596aec980
   languageName: node
   linkType: hard
 
@@ -6775,7 +6819,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^4.33.0":
+"@typescript-eslint/parser@npm:4, @typescript-eslint/parser@npm:^4.33.0":
   version: 4.33.0
   resolution: "@typescript-eslint/parser@npm:4.33.0"
   dependencies:
@@ -12064,7 +12108,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.29.0":
+"eslint@npm:7, eslint@npm:^7.29.0":
   version: 7.32.0
   resolution: "eslint@npm:7.32.0"
   dependencies:
@@ -13665,6 +13709,13 @@ __metadata:
   peerDependencies:
     graphql: ">=0.11 <=16"
   checksum: bdb77b3e44be53d2d8d0c395066e62e74efe1123d9b5be7cc69b60d28229974e32abc79c5997095d038d169d4135cb2bcb98f0e666aa8cfeb3bb9857b960d803
+  languageName: node
+  linkType: hard
+
+"graphql@npm:15":
+  version: 15.8.0
+  resolution: "graphql@npm:15.8.0"
+  checksum: 423325271db8858428641b9aca01699283d1fe5b40ef6d4ac622569ecca927019fce8196208b91dd1d8eb8114f00263fe661d241d0eb40c10e5bfd650f86ec5e
   languageName: node
   linkType: hard
 
@@ -21016,16 +21067,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react-dom@npm:17.0.2"
+"react-dom@npm:16":
+  version: 16.14.0
+  resolution: "react-dom@npm:16.14.0"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-    scheduler: ^0.20.2
+    prop-types: ^15.6.2
+    scheduler: ^0.19.1
   peerDependencies:
-    react: 17.0.2
-  checksum: 1c1eaa3bca7c7228d24b70932e3d7c99e70d1d04e13bb0843bbf321582bc25d7961d6b8a6978a58a598af2af496d1cedcfb1bf65f6b0960a0a8161cb8dab743c
+    react: ^16.14.0
+  checksum: 5a5c49da0f106b2655a69f96c622c347febcd10532db391c262b26aec225b235357d9da1834103457683482ab1b229af7a50f6927a6b70e53150275e31785544
   languageName: node
   linkType: hard
 
@@ -21169,6 +21221,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-is@npm:^18.2.0":
+  version: 18.2.0
+  resolution: "react-is@npm:18.2.0"
+  checksum: e72d0ba81b5922759e4aff17e0252bd29988f9642ed817f56b25a3e217e13eea8a7f2322af99a06edb779da12d5d636e9fda473d620df9a3da0df2a74141d53e
+  languageName: node
+  linkType: hard
+
 "react-lifecycles-compat@npm:^3.0.4":
   version: 3.0.4
   resolution: "react-lifecycles-compat@npm:3.0.4"
@@ -21295,6 +21354,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-router@npm:^6.6.2":
+  version: 6.6.2
+  resolution: "react-router@npm:6.6.2"
+  dependencies:
+    "@remix-run/router": 1.2.1
+  peerDependencies:
+    react: ">=16.8"
+  checksum: 5960d774bb3a8f697a57ee2e82a3eb0a300b7186a62b27e02773c94f1682e59435bd876d6162a08cc8daf27cac72aaab66d348fcc4d8f59240a63a911cf0050b
+  languageName: node
+  linkType: hard
+
 "react-sizeme@npm:^3.0.1":
   version: 3.0.2
   resolution: "react-sizeme@npm:3.0.2"
@@ -21350,13 +21420,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react@npm:17.0.2"
+"react@npm:16":
+  version: 16.14.0
+  resolution: "react@npm:16.14.0"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-  checksum: b254cc17ce3011788330f7bbf383ab653c6848902d7936a87b09d835d091e3f295f7e9dd1597c6daac5dc80f90e778c8230218ba8ad599f74adcc11e33b9d61b
+    prop-types: ^15.6.2
+  checksum: 8484f3ecb13414526f2a7412190575fc134da785c02695eb92bb6028c930bfe1c238d7be2a125088fec663cc7cda0a3623373c46807cf2c281f49c34b79881ac
   languageName: node
   linkType: hard
 
@@ -22192,13 +22263,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.20.2":
-  version: 0.20.2
-  resolution: "scheduler@npm:0.20.2"
+"scheduler@npm:^0.19.1":
+  version: 0.19.1
+  resolution: "scheduler@npm:0.19.1"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-  checksum: c4b35cf967c8f0d3e65753252d0f260271f81a81e427241295c5a7b783abf4ea9e905f22f815ab66676f5313be0a25f47be582254db8f9241b259213e999b8fc
+  checksum: 73e185a59e2ff5aa3609f5b9cb97ddd376f89e1610579d29939d952411ca6eb7a24907a4ea4556569dacb931467a1a4a56d94fe809ef713aa76748642cd96a6c
   languageName: node
   linkType: hard
 
